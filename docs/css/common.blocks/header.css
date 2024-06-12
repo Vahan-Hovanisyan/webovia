@@ -1,0 +1,33 @@
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 24px 0;
+    width: 100%;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.burger {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(245, 246, 247);
+}
+
+.button__reset {}
+
+.burger__line {
+    width: 18px;
+    height: 2px;
+    background-color: #000;
+}

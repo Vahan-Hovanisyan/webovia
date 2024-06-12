@@ -1,0 +1,13 @@
+.list-reset {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.button-reset {
+	padding: 0;
+	border: none;
+	font-family: Arial;
+	background-color: transparent;
+	cursor: pointer;
+}
